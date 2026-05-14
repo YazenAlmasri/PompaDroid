@@ -9,12 +9,14 @@ public class InputHandler : MonoBehaviour {
     float vertical;
     bool jump;
     bool attack;
+    bool rangedAttack;
 
     float lastJumpTime;
     bool isJumping;
     public float maxJumpDuration = 0.2f;
 
     bool didAttack;
+    bool didRangedAttack;
     public bool useUI = true;
 
     public float GetVerticalAxis()
@@ -37,10 +39,21 @@ public class InputHandler : MonoBehaviour {
         return attack;
     }
 
+    public bool GetRangedAttackButtonDown()
+    {
+        return rangedAttack;
+    }
+
     public void DidPressAttack(BaseEventData data)
     {
         attack = true;
         didAttack = false;
+    }
+
+    public void DidPressRangedAttack(BaseEventData data)
+    {
+        rangedAttack = true;
+        didRangedAttack = false;
     }
 
     public void DidPressJump(BaseEventData data)
@@ -102,12 +115,21 @@ public class InputHandler : MonoBehaviour {
                 didAttack = attack = false;
             else if (attack)
                 didAttack = true;
+
+            if (didRangedAttack)
+                didRangedAttack = rangedAttack = false;
+            else if (rangedAttack)
+                didRangedAttack = true;
+
+            if (Input.GetButtonDown("RangedAttack"))
+                rangedAttack = true;
         }
         else
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
             attack = Input.GetButtonDown("Attack");
+            rangedAttack = Input.GetButtonDown("RangedAttack");
 
             if (!jump && !isJumping && Input.GetButton("Jump"))
             {

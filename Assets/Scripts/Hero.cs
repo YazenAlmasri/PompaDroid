@@ -80,6 +80,14 @@ public class Hero : Actor
     public GameManager gameManager;
     public JumpCollider jumpCollider;
 
+    public GameObject fireballPrefab;
+    public AttackData fireballAttack;
+    public float fireballCooldown = 0.55f;
+    public float fireballSpeed = 16f;
+    public float fireballMaxDistance = 24f;
+    public Vector3 fireballSpawnOffset = new Vector3(0.4f, 1.05f, 0f);
+    float lastFireballTime = -100f;
+
     protected override void Start()
     {
         base.Start();
@@ -128,6 +136,7 @@ public class Hero : Actor
 
         bool jump = input.GetJumpButtonDown();
         bool attack = input.GetAttackButtonDown();
+        bool rangedAttack = input.GetRangedAttackButtonDown();
 
         curDirection = new Vector3(h, 0, v);
         curDirection.Normalize();
@@ -203,6 +212,9 @@ public class Hero : Actor
             lastAttackTime = Time.time;
             Attack();
         }
+
+        if (rangedAttack && Time.time >= lastFireballTime + fireballCooldown && !isKnockedOut && !isPickingUpAnim)
+            TryLaunchFireball();
 
         //calculates knockdown tolerance
         if (hurtTolerance < hurtLimit)
@@ -308,6 +320,26 @@ public class Hero : Actor
         body.AddForce(verticalVector, ForceMode.Force);
     }
 
+    void TryLaunchFireball()
+    {
+        AttackData data = fireballAttack;
+        if (data == null)
+            data = new AttackData { attackDamage = 12f, force = 40f, knockdown = false };
+
+        Vector3 dir = new Vector3(frontVector.x, 0f, frontVector.z);
+        dir.y = 0f;
+        if (dir.sqrMagnitude < 0.01f)
+            dir = new Vector3(isFacingLeft ? -1f : 1f, 0f, 0f);
+        dir.Normalize();
+
+        Vector3 spawnPos = transform.position + fireballSpawnOffset;
+        spawnPos += new Vector3(dir.x * 0.35f, 0f, dir.z * 0.35f);
+
+        FireballProjectile.Spawn(this, data, spawnPos, dir, fireballSpeed, fireballMaxDistance, fireballPrefab);
+        lastFireballTime = Time.time;
+        PlaySFX(hit2Clip);
+    }
+
     public override void Attack()
     {
         if (currentAttackChain <= maxCombo)
@@ -323,7 +355,7 @@ public class Hero : Actor
                     baseAnim.SetInteger("EvaluatedChain", evaluatedAttackChain);
                     baseAnim.SetInteger("CurrentChain", currentAttackChain);
 
-                    body.velocity = Vector3.zero;
+                    body.linearVelocity = Vector3.zero;
                     body.useGravity = false;
                 }
             }
@@ -468,7 +500,7 @@ public class Hero : Actor
             powerupRoot = currentPowerup.rootObject;
             powerup.user = this;
 
-            currentPowerup.body.velocity = Vector3.zero;
+            currentPowerup.body.linearVelocity = Vector3.zero;
             powerupRoot.SetActive(false);
             Walk();
 

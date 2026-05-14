@@ -1,0 +1,1091 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.5f1 (cc83ebd631f8) revision 13403115'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yalma" at "2026-05-11T16:16:47.6019822Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-11T16:16:47Z
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-yalma"
+[Licensing::IpcConnector] LicenseClient-yalma channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yalma-6000.4.5" at "2026-05-11T16:16:48.8838017Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2077660, path: "C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              0aaae2e0c4e242f4a46693aaaf2938b2
+  Correlation Id:          c27d6ccfa922349a66b92d7db171ea00
+  External correlation Id: 8852462654841949843
+  Machine Id:              N5PSwatz3vcFmH4UzIORN7hH+qY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yalma-6000.4.5" (connect: 0.01s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yalma-6000.4.5-notifications" at "2026-05-11T16:16:48.8882177Z"
+[Licensing::Module] Licensing Background thread has ended after 1.29s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Work/Github/PompaDroid
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56095
+-licensingIpc
+LicenseClient-yalma
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Work/Github/PompaDroid
+D:/Work/Github/PompaDroid
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [2591168]  Target information:
+
+Player connection [2591168]  * "[IP] 192.168.4.22 [Port] 0 [Flags] 2 [Guid] 1841767747 [EditorId] 1841767747 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G1COG6O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2591168] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2591168] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
+Initialize engine version: 6000.4.5f1 (cc83ebd631f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/Github/PompaDroid/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004091 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.457 seconds
+Domain Reload Profiling: 1075ms
+	BeginReloadAssembly (149ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (165ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (147ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (215ms)
+	FinalizeReload (459ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-UN74-N8DZ-WB64-E5CU-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 20066407898591-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.DataPrivacy.Tests.dll at Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Analytics.StandardEvents.EditorTests.dll at Library/ScriptAssemblies/Unity.Analytics.StandardEvents.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Advertisements.Tests.dll at Library/ScriptAssemblies/UnityEngine.Advertisements.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Apple.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Apple.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.AppleMacos.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.AppleMacos.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.Security.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.Security.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.Purchasing.WinRT.dll at Library/ScriptAssemblies/UnityEngine.Purchasing.WinRT.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 12.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.06 ms, found 3 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.109 seconds
+Domain Reload Profiling: 2038ms
+	BeginReloadAssembly (176ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (485ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (93ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1109ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3240 unused Assets / (1.2 MB). Loaded Objects now: 3811.
+Memory consumption went from 90.6 MB to 89.4 MB.
+Total: 15.738100 ms (FindLiveObjects: 0.659500 ms CreateObjectMapping: 0.355100 ms MarkObjects: 12.203800 ms  DeleteObjects: 2.297800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 348959.381669 seconds.
+  path: Assets/Animation/Boss/boss_anim_controller.controller
+  importAddress: Guid(0b5567d0ccb1eed489f03177148b6992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Boss/boss_anim_controller.controller using Guid(0b5567d0ccb1eed489f03177148b6992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '94e252b49507ced6d1be035ac01a54a5') in 0.13906 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29c87ac9899cc6464d2398630f5cb6b2 DependenciesID=7b8050158afc994ae1feaa149160da4f StaticDependenciesID=799fcd80ea6b89f6b36403275ba185b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Animation/Hero/hero_attack2_anim.anim
+  importAddress: Guid(28c7d0ef903fb2e4b8add596b1d0436c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_attack2_anim.anim using Guid(28c7d0ef903fb2e4b8add596b1d0436c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a578ee72cbec554af88f599bc1108f81') in 0.0674599 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed13ac033dd6af711a24d002ada9089b DependenciesID=6c83a96fa85226ef96fb9c306af64e67 StaticDependenciesID=7e2bef731d7a924db0e72c4a89749739 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001029 seconds.
+  path: Assets/Prefabs/GameOverBanner.prefab
+  importAddress: Guid(b0e50aa712d25d84082056d71ff6aba9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/GameOverBanner.prefab using Guid(b0e50aa712d25d84082056d71ff6aba9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f85eaaba455f64537b94584d0fad56a6') in 0.2677587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8167cbb621a1065d7f206a2a6eb7828b DependenciesID=3cc1345b35c9f3d425ac60d4ff9d2df8 StaticDependenciesID=77d02e6830d3a0e16924f646aa099315 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animation/Hero/hero_attack3_anim_powerup.anim
+  importAddress: Guid(1fcb140ab4c304d96a70f6802e62894f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_attack3_anim_powerup.anim using Guid(1fcb140ab4c304d96a70f6802e62894f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '245cd37d9ec9531557664489c81e49bf') in 0.0133384 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68cc4ed64a98dd8373f1e75e13ec7c47 DependenciesID=ee6474432907acc6199afd05cadf0092 StaticDependenciesID=4d2e676830af32ed203497fd93571052 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Scripts/ActionDPad.cs
+  importAddress: Guid(a49b9f38450314378a959612108b6a0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ActionDPad.cs using Guid(a49b9f38450314378a959612108b6a0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '107d0f1ab4c47315a31afcff296eb12d') in 0.0113525 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=764b1e6fe9ade5c880fe28f85a31f022 DependenciesID=813de7b7072f5d8c7791d085a48ff617 StaticDependenciesID=7cd961a6cade2001bf698ccda8ca9447 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/JumpCollider.cs
+  importAddress: Guid(83536bb2d9afb4bbfbeec27cbb656a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/JumpCollider.cs using Guid(83536bb2d9afb4bbfbeec27cbb656a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a0f8a684f108f3c8f1fe56014509ec0') in 0.0103176 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4f8fe75e5c79ba64c177353a0d8c150 DependenciesID=dfa5a1af48e99f6747d25ce32a2aebe3 StaticDependenciesID=3072f07649dcd60b3dbc3625d259d089 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Animation/Hero/hero_attack2_anim_powerup.anim
+  importAddress: Guid(a410142c966a44faea581ec6ec46b524) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_attack2_anim_powerup.anim using Guid(a410142c966a44faea581ec6ec46b524) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c03ea3e86af231f91e3f46d666114d9d') in 0.0133221 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2076f6e72d3613756ff724223c2614ea DependenciesID=ea476e2e282b728cfeedbebe9cc40b80 StaticDependenciesID=7d7444c658d0580d94ff35fe29eaba7c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Audio/sfx_hit1.wav
+  importAddress: Guid(8a52d845131c2f2459d934816680a536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Audio/sfx_hit1.wav using Guid(8a52d845131c2f2459d934816680a536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bfe259e8a918b65c399dae95c9159c31') in 0.0226633 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54d7529a271585279f56d96e0eabc042 DependenciesID=2fbc436b37fd4ee9f0bbb50268e94d36 StaticDependenciesID=1218447673f283f755fe690a795e3740 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animation/Hero/hero_jump_rise.anim
+  importAddress: Guid(a3867039a98daf246bcf632235162e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_jump_rise.anim using Guid(a3867039a98daf246bcf632235162e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c67f1e20bc69f3e3e3c73e5e671ab00') in 0.013149 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=928f7b28c1c52b991e4f3ffd636d9f6f DependenciesID=01ad8b4904467fca426bb88e82010e55 StaticDependenciesID=a4633f23bde6e53d2ba5c9287fed560f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/HeroCallback.cs
+  importAddress: Guid(d7383ff67460644ea8ec7f58cc04f9f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/HeroCallback.cs using Guid(d7383ff67460644ea8ec7f58cc04f9f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c483ec0f8d96d4416513c16c78aebf7') in 0.0099348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0880809d0fc889579bef517e60ec45b DependenciesID=72efcd68145998a670e429fea8774897 StaticDependenciesID=d55fb02faf6677d0e629331a3c84f9c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Prefabs/HitValue.prefab
+  importAddress: Guid(e9b5c0ddbae7d114fa0170b412f3ab85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/HitValue.prefab using Guid(e9b5c0ddbae7d114fa0170b412f3ab85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f1f7cb2417959243b417981f876f98d9') in 0.0311368 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce7b4159a4b7986d96c6637ff5baf87b DependenciesID=fa06b7354958f8b1838189645541f47c StaticDependenciesID=ae7e4573543900d97ccdab92ccf93d23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Prefabs/GameAudioManager.prefab
+  importAddress: Guid(63a0de6517f104397ab35bbdf5131077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/GameAudioManager.prefab using Guid(63a0de6517f104397ab35bbdf5131077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '736acbda78356776f7c767b28c680a88') in 0.4491503 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=930a5ea2c48cdc2737de721029ce440e DependenciesID=08d312ef290af6b6ef424a799c18a5ec StaticDependenciesID=e829236abb4bbc1d824c0667538ea65d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Actor.cs
+  importAddress: Guid(723ee73528ac141398d5e03234b18d8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Actor.cs using Guid(723ee73528ac141398d5e03234b18d8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0bf5a496d867166f75f3820bd6bbac4b') in 0.0139 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e713915e177d4fa769af3b697b06ebbc DependenciesID=3535720283cf3936dfad3f47ad8ffb13 StaticDependenciesID=eb8e5f90a39337a7b05837914da0b4c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Images/GameHUD/ui_hp_back.png
+  importAddress: Guid(88b191f7d5509af42a1804549da76a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/GameHUD/ui_hp_back.png using Guid(88b191f7d5509af42a1804549da76a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3e9ae8826700119444893ea9f4b07fd2') in 0.0983996 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7c07b3e4559fa7c860b3adc5ab72cde DependenciesID=2d87a4648338326eea80e20d666c8cdc StaticDependenciesID=f5e7dddc4138d810558582fc7fbecfee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animation/Hero/hero_jump_land.anim
+  importAddress: Guid(b7adf55674a3d7e4a879d5a32f35a88b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_jump_land.anim using Guid(b7adf55674a3d7e4a879d5a32f35a88b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '497bbb2c6143eb8d87e5bd365bfbd42b') in 0.0132048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13e4227291d362ae7c3e71d1ad414646 DependenciesID=e5ad44618c7e5eb26a7034ae0fbd4086 StaticDependenciesID=cb67c62c3ae0a3382b5e33963db38ad9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Images/Background/BackgroundMaterial.mat
+  importAddress: Guid(cd306de1d3ca64f978b6218245bcd392) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Background/BackgroundMaterial.mat using Guid(cd306de1d3ca64f978b6218245bcd392) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5decc023b69a381c3608f5a9ed5535d') in 0.0508897 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44e194aa7034a67c25dc1d53af16cd47 DependenciesID=96cf2afeadfd6f26a8f50bf8d6fac0e9 StaticDependenciesID=65fa5cad694cfb1c61d7c4c1ca469695 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Map1.prefab
+  importAddress: Guid(d200073c8aebf434e905fd8e4e831d1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Map1.prefab using Guid(d200073c8aebf434e905fd8e4e831d1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c327308b7ece16d91b56875327b4c646') in 0.0468909 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a55c636cbc63ae38db386345a6f153e4 DependenciesID=6062775d599cccb985328d2442db90fe StaticDependenciesID=585c7580d42fc44be7d9688d58e5164a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 125
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animation/Hero/hero_walk_anim_powerup.anim
+  importAddress: Guid(00d24d67f9d354e189a94872ea7babb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_walk_anim_powerup.anim using Guid(00d24d67f9d354e189a94872ea7babb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8497e54b68194c8fed447938329b7db2') in 0.0143441 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5656935f6a4af4f98ee2c407b8487882 DependenciesID=665f5c43b3b7c03019478959e8e208d9 StaticDependenciesID=5dbd30521f92d5cf45a475525cc8f4c5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/GameHUD/ui_hp_bar_flipped.png
+  importAddress: Guid(41956a8d121f45d448b3308c0a96b201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/GameHUD/ui_hp_bar_flipped.png using Guid(41956a8d121f45d448b3308c0a96b201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'af482dac49f4388cfc51e3452b13a43d') in 0.0208168 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9a734be73e534b6a3492e812026dabe DependenciesID=93286e91f96a1ab7fec0a05ae05c7016 StaticDependenciesID=f7ae73bd9fb2335ba3d7118f3823043d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animation/Hero/hero_attack1_anim.anim
+  importAddress: Guid(5bc1cebf366dc2242bc124ed1092a667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_attack1_anim.anim using Guid(5bc1cebf366dc2242bc124ed1092a667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66b0b87ce2d2f4753d233e59275bea5f') in 0.0253372 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3517e530d967d066d07730f42f1ed9d8 DependenciesID=c5c01d9230c2555c74ae847a85efe8e7 StaticDependenciesID=9fe48241719437843194aac95878d7e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  importAddress: Guid(de6c44f946e7a4c159d82462529d4b09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MainMenu.cs using Guid(de6c44f946e7a4c159d82462529d4b09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35def910e7de6da587dd07dad7a4576c') in 0.0134297 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=585ed6fe2d76fd70c86e4f018b495751 DependenciesID=9f9cfabab79ff9cde3f1581f5fd94987 StaticDependenciesID=f1e53ad688055fa137c091a4094f2f6e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/HitForwarder.cs
+  importAddress: Guid(259e055de23d442f680bf937f260a290) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/HitForwarder.cs using Guid(259e055de23d442f680bf937f260a290) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d3f44db68cb7e63183fec7b1c8182c9') in 0.0181516 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a92d9f943920088e428f5005eb1b0cae DependenciesID=22ad80b3a5f7ca1c8b7bb418f0bbd8c6 StaticDependenciesID=a71bebc129f2b5a3c175b97d8eb6c67f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Animation/Hero/hero_walk_anim.anim
+  importAddress: Guid(1ed64baa2af214d86bb88fd3a88999f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_walk_anim.anim using Guid(1ed64baa2af214d86bb88fd3a88999f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '827d3388b5c5c729e0d86971bb9b63ed') in 0.031682 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a01ff0f97569af0fe6c353fe40944323 DependenciesID=91c9c87e7474798a4163769b8c9a6cc7 StaticDependenciesID=4a10e9e182e037e49a22a9ce641590a9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animation/UI/banner_hide_anim.anim
+  importAddress: Guid(29ea65b5cd7e5794183d6a13eba98512) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/UI/banner_hide_anim.anim using Guid(29ea65b5cd7e5794183d6a13eba98512) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c84f8eddcc4bf336c57fbc88db590e1') in 0.1789778 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e175b38f76494c7da5ab9e3ea141755 DependenciesID=97b1de01c7167c58b1f568de88041f3b StaticDependenciesID=a4e932ccf93392f1b50eabcce19f837d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/JoyPad/dpad_upright.png
+  importAddress: Guid(446d1cb8ef60f364ab4d9e35aa701d89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/JoyPad/dpad_upright.png using Guid(446d1cb8ef60f364ab4d9e35aa701d89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c305f631781ed62724e0c69e84002834') in 0.0247547 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=221e1d1c7d46771a0bb819fab5c915b9 DependenciesID=cb04579b34d7260d14fe2050ab5c3b6c StaticDependenciesID=85114a7f702cccc8738e49c0075e57ec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MobileDependencyResolver/Editor/Google.VersionHandler.dll
+  importAddress: Guid(61c24b9980ea49ae90c8b62fb489de77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MobileDependencyResolver/Editor/Google.VersionHandler.dll using Guid(61c24b9980ea49ae90c8b62fb489de77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9c9ed113af1e14c439e115c674120b37') in 0.1230338 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae9cb7132b854ae06fe54859cdf49512 DependenciesID=61f8e8541a1d50e3005d1fab56e2bf35 StaticDependenciesID=0eff1cbc1b2be17be80b7baa55b5055e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/JoyPad/dpad_downleft.png
+  importAddress: Guid(1edcd8b7f63990f4e9ed16fb538fe9ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/JoyPad/dpad_downleft.png using Guid(1edcd8b7f63990f4e9ed16fb538fe9ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f3ef426955369c39884c3d40517dedd') in 0.164745 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4308bc322d7bec3fea9fff940369829 DependenciesID=f8481ba73acc7dab1dd092a1a63df8a0 StaticDependenciesID=0f1ee36201a52cdcbc3747236012da15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/LifeBar.cs
+  importAddress: Guid(8c7d929f0230e4ef38ad3929d29ca555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/LifeBar.cs using Guid(8c7d929f0230e4ef38ad3929d29ca555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c898235b6aee2d1bfcb8e00210a4967c') in 0.0092998 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b133924fc5d1315855cab547a9194857 DependenciesID=6d872e1e0fe2dab3b0776b86eaf92116 StaticDependenciesID=f46f6e4051d72b19b45005f5eef9bb5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/TrashCan.prefab
+  importAddress: Guid(4655216d64f10f8449dcbe2097da227b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/TrashCan.prefab using Guid(4655216d64f10f8449dcbe2097da227b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '97850b10a8e8e9d4a4259453e3bece87') in 0.2362929 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7873c76ea43ba8e4f3f92659081a6e96 DependenciesID=2e8ffa9c487f17ed28b295cbfd28d1ca StaticDependenciesID=81f4bdababf39a7346fa8908c5362ad9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/Editor/GridSnapperInspector.cs
+  importAddress: Guid(16325d4620d38d14c8254860ac640cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Editor/GridSnapperInspector.cs using Guid(16325d4620d38d14c8254860ac640cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e5caa30ba95114c17b85b5d273427391') in 0.0364893 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80805d81e2b8cd683c27a78347b25d32 DependenciesID=af4d223a9d83f0e9ab6bc60d0e2d6012 StaticDependenciesID=7d6845c260d9479d3ca9922f69189b93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animation/Robots/robot_hurt_anim.anim
+  importAddress: Guid(d29c5c7274c4c4a4898adebf11cf04fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Robots/robot_hurt_anim.anim using Guid(d29c5c7274c4c4a4898adebf11cf04fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '252f7defdaf0d696ffa5fedc0f9646a5') in 0.0464682 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d65ec73001119da462484ab34a3e0ea DependenciesID=34ad4162b144cbd364f9756eed09eb94 StaticDependenciesID=446090c9a50a70253d588dbbf4751602 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animation/Hero/hero_getup_anim.anim
+  importAddress: Guid(316bbd7c8b32a1e4abbd55cf9aa90791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_getup_anim.anim using Guid(316bbd7c8b32a1e4abbd55cf9aa90791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4211f6b198c8283862b25f16395cc86e') in 0.0155366 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c52950b818a5a671765f2fd4afe32c0f DependenciesID=162cc975798cdec3b9d2f8baf1228509 StaticDependenciesID=0311a1ac6dacff99259482367e1aa03e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/HeroDetector.cs
+  importAddress: Guid(a2d263983806f4afb9841a1086883855) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/HeroDetector.cs using Guid(a2d263983806f4afb9841a1086883855) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ec5abacdd896a45eeaae251ed320eb8') in 0.0144827 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77802722d893f664a7faa9d5c87e1ced DependenciesID=604b4df030d4f7aacfd66369ee07981b StaticDependenciesID=fc9dba06b01c32dc4958fa56cd19ff28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Meshes/WallSprites.asset
+  importAddress: Guid(21ac2c0a0350a4a99b1ed155cea5c39a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Meshes/WallSprites.asset using Guid(21ac2c0a0350a4a99b1ed155cea5c39a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '24ec53ba92dfaf86217569e7b39117fb') in 0.0269743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d942b74156e9ee90c2437722b73b7acb DependenciesID=b21c0d45482547ce00e9877c9cfd63ff StaticDependenciesID=50dc6cb93165ef0eee4ce639395bd191 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/JoyPad/button_a_selected.png
+  importAddress: Guid(7a6a39e14bbd44c43a589d24a0f1a254) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/JoyPad/button_a_selected.png using Guid(7a6a39e14bbd44c43a589d24a0f1a254) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2f76cac7893a459cca4f0c77fa58dc95') in 0.0292092 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86c70ba5e64157716941f41c8829105d DependenciesID=cd401e884d1398565cf45871d5690513 StaticDependenciesID=1d6fe43c64ee30ad96377b161d834a7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Powerup.cs
+  importAddress: Guid(d04cdcb384e5343c9aa04b02c5673962) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Powerup.cs using Guid(d04cdcb384e5343c9aa04b02c5673962) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'be69f1de200770cc7ff5208565652e2d') in 0.0206264 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61926b933f9a358113c461a5557b6a13 DependenciesID=63a3757301bff5ccb5e7bbffb83e5911 StaticDependenciesID=d6e2e7145fce25f26b5687f6174a469b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Prefabs/EnemyBoss.prefab
+  importAddress: Guid(2046347e7430b463f87d2ed4cf6697c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/EnemyBoss.prefab using Guid(2046347e7430b463f87d2ed4cf6697c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f2fa856ed7492400501ca056493bf50') in 0.717778 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d054f5a9c5b438ddd373594e4a528ebb DependenciesID=c8c5bbd666c5905e13ee5d49d2e387d3 StaticDependenciesID=9ef3c0ffb1a9b1198e05c547d1c0bd08 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Sprites/Boss/boss_walk_03.png
+  importAddress: Guid(6993bbb0cfbd81b48bc90f582bb621e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Boss/boss_walk_03.png using Guid(6993bbb0cfbd81b48bc90f582bb621e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5429e2e9327104808d640095e5956f1c') in 0.3865283 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6b2bf300b314bc2bb1d78b47239bcd0 DependenciesID=205961f44ef01dfe82b5f3669546e642 StaticDependenciesID=72b5a2f3b772e18fb3a0944f1ca1659e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/Sprites/Boss/boss_attack_02.png
+  importAddress: Guid(8f8f86ee5827ae541b6d3c8a9a2defa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Boss/boss_attack_02.png using Guid(8f8f86ee5827ae541b6d3c8a9a2defa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70b0f2fa15990c11e20655a5e5833e3f') in 0.0831807 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17987508fac89462075e31c59d02efa8 DependenciesID=9b6373f5d313311ee92f53b8baf8d615 StaticDependenciesID=5d56c353d778fc5114aa8bd9e7d4bcc4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Fonts/04b03.ttf
+  importAddress: Guid(2d57ec1f58249384e96622938787eeb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Fonts/04b03.ttf using Guid(2d57ec1f58249384e96622938787eeb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '31a312c15ca14ac76e594ada713f6ca8') in 0.0177576 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c08b20b0a775285a9dcf5cb4a4e319a DependenciesID=c76a237596bf8a2d8777dc31ac16ffff StaticDependenciesID=ce56449f24fd0a5057dd356cf9b0bb2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/GameHUD/ui_hp_yellow_fill.png
+  importAddress: Guid(33a6dfe3f946ac94ca3a6500c7386197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/GameHUD/ui_hp_yellow_fill.png using Guid(33a6dfe3f946ac94ca3a6500c7386197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '108796c2212fe2a6066f06ee7331f780') in 0.0180697 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f493d3897f87f921f296ae86a2196130 DependenciesID=25b376bbb80026d8de4ad30cb5f90c2a StaticDependenciesID=c92caf576975ee66c65df7a9e8daae6a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/ImageFlicker.cs
+  importAddress: Guid(80ff0d05128e8422181ddf009e5c2233) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ImageFlicker.cs using Guid(80ff0d05128e8422181ddf009e5c2233) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43206b186cb60bc008d41a922d84b903') in 0.0088876 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=281a832ecf38d7afa805b3e466d3c204 DependenciesID=944a07142e7704c21d03fc35a4b28b87 StaticDependenciesID=24032d7e504c31831d6484c85b8dfa83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/GridSnapper.cs
+  importAddress: Guid(c4fe4af144a1e404f887d531b1da8dbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/GridSnapper.cs using Guid(c4fe4af144a1e404f887d531b1da8dbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2bc8c2e80b5702e883e7d749e308d0f') in 0.0092099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ae247b153847dc2cc1dc5b394dc275f DependenciesID=1aa194751d4ca94880b9f47fffe7c854 StaticDependenciesID=20baa86b6ab3a96c055b6f8ea56476d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Images/Sprites/Hero/hero_getup_00.png
+  importAddress: Guid(f3cb061b2125f884b8aa6f7846b30717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_getup_00.png using Guid(f3cb061b2125f884b8aa6f7846b30717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '624c32ab64998925a2c09fdd56640d84') in 0.0246212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27c45cabb575bda3386712dcd2b79963 DependenciesID=e360bd6d0479b4e8f8e93c80afdb7685 StaticDependenciesID=4d72fb4f6f09113a06704b24b326a0e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Sprites/Hero/hero_attack_02_01.png
+  importAddress: Guid(8a3e6c66f64d89a47847821b2ca87b79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_attack_02_01.png using Guid(8a3e6c66f64d89a47847821b2ca87b79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '20b49d115c227508b4769033f1a05234') in 0.0583091 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3cf273b3d6d0941ed99ce4381dae6fae DependenciesID=62e400bdc0d677efad18b6986e899a26 StaticDependenciesID=05d893e7ec0cfd6e4508e5de74e832bf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Audio/weareallrobots.wav
+  importAddress: Guid(7e812510ad8f0450f8b84115d54da7db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Audio/weareallrobots.wav using Guid(7e812510ad8f0450f8b84115d54da7db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6d061e54dfc97fba58c09a8e5de48661') in 0.3595835 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5f3fef7aba3430ce8424bc75010b0ae DependenciesID=4a96301a95d9f117a68b6bc256e20345 StaticDependenciesID=260320000f6d4600223c7436cae4d0f1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/JoyPad/dpad_left.png
+  importAddress: Guid(2f8f71695c924474387df58930dfab11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/JoyPad/dpad_left.png using Guid(2f8f71695c924474387df58930dfab11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7422ee92c281ac4665ce9def9455f4a0') in 0.0276962 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9658e6ba5e3cd2448b7fce76d5bc5b9 DependenciesID=557e47b5de3e0d6f175d92074e9057d6 StaticDependenciesID=92ede68ac9bfb515f51061183f637216 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Sprites/Boss/boss_walk_02.png
+  importAddress: Guid(61c585b274aa1f4488828d806aca6ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Boss/boss_walk_02.png using Guid(61c585b274aa1f4488828d806aca6ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2b82198254ca5173d3681f1791e6da63') in 0.0622036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d27d18ad6d9a98ca5a57b80dbd8551bb DependenciesID=07e42c8b409e13d11772747326ae59ee StaticDependenciesID=9ef44fd5e5cc995fca57eff0d4385a87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Sprites/Hero/hero_jumpattack_01.png
+  importAddress: Guid(57e9b12d1ef6690448b93b18858f1151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_jumpattack_01.png using Guid(57e9b12d1ef6690448b93b18858f1151) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '97debf80a09f08c9283bc7f5913b43de') in 0.0297899 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3339fbce620be6d0137d78a8e89eb36 DependenciesID=33ef3c3a970a0868bd8b3e614e8d0f5e StaticDependenciesID=457827f4e4e333b3d93943ed2db624a2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Sprites/Misc/hiteffect_00.png
+  importAddress: Guid(cdb6f4776a552344eadd1204bcbfb619) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Misc/hiteffect_00.png using Guid(cdb6f4776a552344eadd1204bcbfb619) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e1455a8df4d3ff42fbdf67fbf9330c7') in 0.0160527 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb67dcaa5b725508bc55e0f246f454e7 DependenciesID=4a7e646f0c3ec0f57874f7e1101b629e StaticDependenciesID=4317948d993942f2f47b8446aba0607a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/Sprites/Hero/hero_run_01.png
+  importAddress: Guid(7ba5cba6cc9005c4a8aba4a1a99dae0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_run_01.png using Guid(7ba5cba6cc9005c4a8aba4a1a99dae0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '18c0b7112fea5df32c7e053dd4a8956a') in 0.0269646 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a071fe172ef933f17ef555de8943e111 DependenciesID=d7b506cd3a0496f3cc243d6e7367b8ee StaticDependenciesID=31861ee4840ae93ce060cdea182b3144 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Sprites/Hero/hero_jump_00.png
+  importAddress: Guid(bd6cb9c9e30a3084a8c24f45b43ae6da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_jump_00.png using Guid(bd6cb9c9e30a3084a8c24f45b43ae6da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '30765b6d2364b1f147a42d93d7522c1b') in 0.0651054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1cc3dba75f4ff8681fc40313b46ce57 DependenciesID=09a4d81291a084776f5d98db97c680d5 StaticDependenciesID=14e87569d218194df793d54e25df3c6e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Sprites/Hero/hero_knockout_02.png
+  importAddress: Guid(d09a63d2649cc3b4d80eb72dad2a35fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_knockout_02.png using Guid(d09a63d2649cc3b4d80eb72dad2a35fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ffc22e141eeef48b33c9cb9c9b5c94ba') in 0.0503951 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82967e2ebd0c5e0dbd9269e4dc5ba766 DependenciesID=bc67bc2aa7cc26c8f970a5b4961f3a23 StaticDependenciesID=5ee2e10ab7b3ea8d7ba18b452eb60eca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/Sprites/Misc/hiteffect_04.png
+  importAddress: Guid(2ad11a50eebe1314597d9bafd03b68c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Misc/hiteffect_04.png using Guid(2ad11a50eebe1314597d9bafd03b68c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c72d1c1c6a8e5daf2959f0a1f524138') in 0.0223138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2fa98c253fdd069abbaab0e07772947b DependenciesID=0a34ebd055dd599c00d08acccee4c84d StaticDependenciesID=fa21e632fefb2a5129098aa7ee8db42b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Sprites/Hero/hero_walk_04.png
+  importAddress: Guid(333ab7ba4dda5f941a87a48fd545f98b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_walk_04.png using Guid(333ab7ba4dda5f941a87a48fd545f98b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cce31fbe38d3eba348b3fdee44124ab6') in 0.0433034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a403c6515c1987aa5fddaa6d2911e201 DependenciesID=7d99bfd241ee4eff82878dc9571ab62f StaticDependenciesID=f86c225e4b77e49b45010ca41bb91e85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Sprites/Hero/hero_idle_00.png
+  importAddress: Guid(feeea95cf18b9483fa105614af561549) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_idle_00.png using Guid(feeea95cf18b9483fa105614af561549) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ade3ee258ffacbefc9fffb3839ae397d') in 0.0238162 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fffb47226918391239107692c316047d DependenciesID=8e06e29fea6a00cee90176a699e89472 StaticDependenciesID=0af439541bcb1759ebcd596910c46f8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Sprites/Hero/hero_knockout_01.png
+  importAddress: Guid(9871713d87913df4887f2e1e476ec3d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_knockout_01.png using Guid(9871713d87913df4887f2e1e476ec3d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd01a22642e366b8a9ce8563a5bbf76a3') in 0.0457939 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17ce3aed67a36a13a7fd3fcefa729819 DependenciesID=03f3474d660877f45bdfa5e72d836dcd StaticDependenciesID=985703026e09cbd9144f2fb8c607e969 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Sprites/Hero/hero_attack_02_00.png
+  importAddress: Guid(9870d59bce933424e84bfdbb9f102a92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_attack_02_00.png using Guid(9870d59bce933424e84bfdbb9f102a92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2cc5d0966bd3303b1c2ffe74ab6fc67e') in 0.0386357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58d8bf049b7a83519a88257ec2ff56d4 DependenciesID=598557b4244bd92efda8b113cbbb170c StaticDependenciesID=71b43d9207172f9a910dc83b571dc100 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/JoyPad/button_b_selected.png
+  importAddress: Guid(7d8206b719bf2404a8bc835ae28d355c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/JoyPad/button_b_selected.png using Guid(7d8206b719bf2404a8bc835ae28d355c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '242727f63251b7e8a10c2db6bf1763c7') in 0.1221964 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82c64d41e0b979158a3a2be515adeb59 DependenciesID=c4186c12549a07d8cbdd2048a65d8a8d StaticDependenciesID=fc87c4ff39e4256aa835cdf2fa074cf2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/Sprites/Powerup/weapon_attack_02_03.png
+  importAddress: Guid(ec0bd81b7d16a854e86df915b478f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Powerup/weapon_attack_02_03.png using Guid(ec0bd81b7d16a854e86df915b478f830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b0cd9d0f54b85e2d59e2dedbe539a73b') in 0.0276364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2cf3abb7116e60bee9f39acd4cf0db2f DependenciesID=04da7cb5e2b5bd88b9c4f14ed1cf5848 StaticDependenciesID=02feec91fa3d5b0e394c1337ddacb612 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/Sprites/Powerup/weapon_unequipped.png
+  importAddress: Guid(539e66fde292d4f47942b568f6121ec7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Powerup/weapon_unequipped.png using Guid(539e66fde292d4f47942b568f6121ec7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0736737a194bd656ac409be8527b62bc') in 0.0190395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50c764d4d6fdf0060a8f5e02c0f3febb DependenciesID=9d7f8ee5cd0df3b3bfb6a31584c03fdb StaticDependenciesID=00d9e48757a639b5641df796d298069e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Sprites/Powerup/weapon_walk_02.png
+  importAddress: Guid(771575e672f1bb64097f0a9117eda37c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Powerup/weapon_walk_02.png using Guid(771575e672f1bb64097f0a9117eda37c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b33193157bb48f52e4366ba03546f22c') in 0.0288775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3572dbe18bda8348201a15ddf212ea5b DependenciesID=8dc3c37a51ea5f54bb846f88e7ec4956 StaticDependenciesID=b88251d6e76427af3266970767d62bca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Sprites/Robot/robot_base_attack_04.png
+  importAddress: Guid(296cc42c9b51be44fb019824ced9acbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_base_attack_04.png using Guid(296cc42c9b51be44fb019824ced9acbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6d724c37aa78c7699d111d33fd87239') in 0.0330616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9bdc8359174074a594a7f7e69f3d684 DependenciesID=5b3d54b61d19af0b0ab55f9c9d0678f1 StaticDependenciesID=2e5f567c1f7e5f49b5ab7d69dd85c822 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Sprites/Powerup/weapon_idle_04.png
+  importAddress: Guid(888eb38b549b2004096e33b4e01cadf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Powerup/weapon_idle_04.png using Guid(888eb38b549b2004096e33b4e01cadf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '39d3a937107a8ef488f8f71649a9d48e') in 0.1071771 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69d8f66b7df0abab3e11b3cf939dff02 DependenciesID=495e61a4fdd5426d57ede8e4803196c1 StaticDependenciesID=b3de55637c7fd02a2fa066335965de95 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Sprites/Powerup/weapon_walk_05.png
+  importAddress: Guid(7bd5e44ecf04f5947985113f2f6c6322) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Powerup/weapon_walk_05.png using Guid(7bd5e44ecf04f5947985113f2f6c6322) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a68aae663efa3d8f853ad19cde01a57') in 0.0259999 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58b7a56c7f97262b2fa48546e40f5633 DependenciesID=42c69dac99235e30c925435dd8d45576 StaticDependenciesID=e8e5f329ffaca3af0bcd7e788d443a76 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/Sprites/Misc/trashcan_hit_right.png
+  importAddress: Guid(66b7523461c4d2c4d9d315dd31727ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Misc/trashcan_hit_right.png using Guid(66b7523461c4d2c4d9d315dd31727ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '23e875bb59c8e819e971cd00158260ac') in 0.0153351 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=670be46dc0c4555cb0be1fd89a26fab7 DependenciesID=753ed468d7cba532f3ce43076295715c StaticDependenciesID=5f1ac831ec113a28bc264cf69f7c5cc6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/Sprites/Powerup/weapon_attack_01_01.png
+  importAddress: Guid(e3c120d16fcef57448d597ac79d99893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Powerup/weapon_attack_01_01.png using Guid(e3c120d16fcef57448d597ac79d99893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13101b608de4be8325bfac1dde12e390') in 0.0465164 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ca7d48aafc0c676631f44129366dabc DependenciesID=4fcc0590242d235e8085e65e1f161dfe StaticDependenciesID=3f55edfa0a202f1738c9da2170c4f2dd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/GameHUD/ui_hp_robot_thumb.png
+  importAddress: Guid(31818c14f425ab8469149caa748279f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/GameHUD/ui_hp_robot_thumb.png using Guid(31818c14f425ab8469149caa748279f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bf404b3af071c1225a9e5baa4092ecb9') in 0.0184774 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33689870b3ac782b3975c4a92fa9ec1d DependenciesID=3d80efdf03fe57af5eeb873e0ea79350 StaticDependenciesID=2e2821ea6bedee83bf99b0a93561bc81 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/sfx_blip.wav
+  importAddress: Guid(246bde77ecb5db34d93ec8d3bfe4fcda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Audio/sfx_blip.wav using Guid(246bde77ecb5db34d93ec8d3bfe4fcda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '28ebc7f09e85f44ec0953a4b0e198339') in 0.0351035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a239178fd7dc5f8595f07cf9999e656 DependenciesID=3366deefedc0bdfcb1480fba3bafa276 StaticDependenciesID=6a87ad38233e1ae2e84a5f3258fa7547 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/GameHUD/ui_hp_hero_thumb.png
+  importAddress: Guid(181b42b9be03d2349a47ffcfb6b8d27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/GameHUD/ui_hp_hero_thumb.png using Guid(181b42b9be03d2349a47ffcfb6b8d27a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '02a5c030653571e04ab17cecdb7aa6d5') in 0.0187846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48fb5aa05128a5552b14a1808815798e DependenciesID=11d0c35dc2a397ed60e2799f4eac202f StaticDependenciesID=756fbc327e52b561ae015a55be3333fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Sprites/Hero/hero_walk_01.png
+  importAddress: Guid(c240fe877dcbd704e9d0446b8400545e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_walk_01.png using Guid(c240fe877dcbd704e9d0446b8400545e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a54842b5d5fa8f8d37c94f58d2b02c5b') in 0.0506467 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dc55d0b9c1ead19d52cd12dffd1eb7f DependenciesID=122babac4de69288578ba5c042b65f3f StaticDependenciesID=796936739a557e201f87deaf67abe182 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Sprites/Hero/hero_runattack_04.png
+  importAddress: Guid(fdedecf2f916c2c4f9484fc5d33ff952) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_runattack_04.png using Guid(fdedecf2f916c2c4f9484fc5d33ff952) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd331522630263a05470b76877fb8efa') in 0.0257756 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3cbe1eb1dced9ac6e1c4b5832528efa DependenciesID=ca332b34e583d91c70cc1c86972db904 StaticDependenciesID=0cfcfdfa39b3ef0aca20638b699d39ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/MoveUpper.cs
+  importAddress: Guid(119e64bcf4eb5834ead028109ab5a029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MoveUpper.cs using Guid(119e64bcf4eb5834ead028109ab5a029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d4a15ed7e4e30677d567f6a535378ff') in 0.0271431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=520d7af52172bd4ccdadc3ad906382d3 DependenciesID=4f7e641a00d8fc6beff2c07a468e01e2 StaticDependenciesID=4efd2eecb855fd80e54f4618015e504e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_knockout_01.png
+  importAddress: Guid(ce2e119187aa2f64d9008b4fac5d6769) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_knockout_01.png using Guid(ce2e119187aa2f64d9008b4fac5d6769) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a3019ad7992eb2794486127bf8a89b3') in 0.0236683 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d07b25411b7223cf0cd7a191751c580 DependenciesID=a16c116bfedd4b2f4a44debeb349a64e StaticDependenciesID=74973d8cf4471490776c974bc9c3ed39 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_attack_03.png
+  importAddress: Guid(53e92f62511f3f34598b6de0eaa54821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_attack_03.png using Guid(53e92f62511f3f34598b6de0eaa54821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0ba16fe7d7e788b80eac4232397fc272') in 0.0533744 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afec65cfcea107ce74f9fb0d74c331b1 DependenciesID=4364bd2044679bd2eb4b738c166acc18 StaticDependenciesID=cd9914e677d5cf5b7b6f8eda38ecd2fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_idle_02.png
+  importAddress: Guid(5e933194579547c4bb16753cd4527cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_idle_02.png using Guid(5e933194579547c4bb16753cd4527cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f916f77a2f55890277be66127c066707') in 0.0246405 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c3a8e18ff8f76188f2414985f347994 DependenciesID=1da0fe03a34a4f3ddc36af4eb9a687bc StaticDependenciesID=397ed588af5a3f7e1b66a28a00bbef28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_attack_01.png
+  importAddress: Guid(6c269197f8ddfaf4fad3dfa2f68457e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_attack_01.png using Guid(6c269197f8ddfaf4fad3dfa2f68457e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f9e57940387ace1c35548e674d4081d0') in 0.0218177 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab6c630b128a57a9ab41df39b786811e DependenciesID=8ddcdb6e58f0db0c6e3e8a3b84495151 StaticDependenciesID=d07301d676b4e44cd72d6010564a3ad8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Sprites/Robot/robot_base_knockout_02.png
+  importAddress: Guid(04d7ecfe8bbd6224c99267d592efb7c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_base_knockout_02.png using Guid(04d7ecfe8bbd6224c99267d592efb7c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3b2aea4f4dcfb87d6130bb3aa868ef1a') in 0.0261165 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d857abca64ba00ad6705be3828ae8a9 DependenciesID=4d5d0d665e1bc9898eb9882981854aed StaticDependenciesID=648da1d02f190dc285ebc97f826b5025 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_walk_02.png
+  importAddress: Guid(04ddd722861673442b1da16d35087641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_walk_02.png using Guid(04ddd722861673442b1da16d35087641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1002a3f239493546efa7b7b59e55d682') in 0.0490964 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=816655b3c192b83fc7844109cfe9eda5 DependenciesID=4007c56d45ab9327fdec7eed6862114f StaticDependenciesID=80b47a376083a7050f3d55a63e836d37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_getup_02.png
+  importAddress: Guid(3d5b9e11f0deb5e4c88dec8f7f52f17c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_getup_02.png using Guid(3d5b9e11f0deb5e4c88dec8f7f52f17c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '036d7b47dad0713d47b78f164904ed1b') in 0.0346447 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fdb71173a99630a23a9da8ded4c8ed25 DependenciesID=ba3b3cb20bf105df4d13e7ce6ec83d83 StaticDependenciesID=63ce6e4801119720a31245af060819e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_walk_00.png
+  importAddress: Guid(73ad8d9f65d28c246ab40f80647d0f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_walk_00.png using Guid(73ad8d9f65d28c246ab40f80647d0f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b386d60d20a503dd032034dd818889e4') in 0.0241314 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0a254ec9b7732d55adef7b0da028f89 DependenciesID=d544f29e92342c93bfb99db720a36ac2 StaticDependenciesID=ca3741829ee90137941efbcb61d429a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/Sprites/Robot/robot_base_knockout_01.png
+  importAddress: Guid(ed49669c08a9f56438fccfd27d112831) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_base_knockout_01.png using Guid(ed49669c08a9f56438fccfd27d112831) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5af949ab154fcc508a06e7838e01235a') in 0.1323632 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c8be5e6c5c222f7fa00e5ecadf7dfdf DependenciesID=364f5dc66364c5d0ff40c3e6161ee722 StaticDependenciesID=87c1e127b9e46f7f2e9140aafe81b0cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/Sprites/Robot/robot_base_walk_04.png
+  importAddress: Guid(58df1d94461da0c4b9b62596bfe632e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_base_walk_04.png using Guid(58df1d94461da0c4b9b62596bfe632e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'beb5ced88e52fdcb29782866587ebb95') in 0.0244399 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58cbdda47e228e85337a840f087279b7 DependenciesID=5f7f7deba2088eab5a98f52404a6fdeb StaticDependenciesID=8d893b773176494d0beb65f958138d7c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_knockout_02.png
+  importAddress: Guid(fef447a8d165ac943bc8d6df9fa80c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_knockout_02.png using Guid(fef447a8d165ac943bc8d6df9fa80c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6321592785295195da2ce5afed7147c8') in 0.0286405 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=937596e872c15fb741eccc96df9308a5 DependenciesID=e0aad8722663966619e1c847047dae56 StaticDependenciesID=7e70b2e5804498632d64ba63188416dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Sprites/Robot/robot_belt_attack_04.png
+  importAddress: Guid(69ab89ee2016e0248a4a9f6e84d85ecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_belt_attack_04.png using Guid(69ab89ee2016e0248a4a9f6e84d85ecc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '964f042ed777f3b248b54ee69e59e7a3') in 0.0267761 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25461c5e160dc1e43791925d937abf31 DependenciesID=3accc1d96df14460b6e4d969ace8917e StaticDependenciesID=9a20cba5b1a19c8ef559a297e8da7b46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/MainMenu/bg_title_touchtostart.png
+  importAddress: Guid(0e8b33e5c7c714d7c9f790487946d306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/MainMenu/bg_title_touchtostart.png using Guid(0e8b33e5c7c714d7c9f790487946d306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ac46278fcc7b3f583e2ebae7a972574') in 0.0240128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84c4d686608be5e74939b980f22c171d DependenciesID=0735841fc516dc596e1d6c985d4da29c StaticDependenciesID=4b8394484fc2d13558ff67ddba871ad2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_walk_05.png
+  importAddress: Guid(e2d612322eaa51841b504e165fc67d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_walk_05.png using Guid(e2d612322eaa51841b504e165fc67d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9bdd3cefe4d6425c6c9f6560974574e2') in 0.0665797 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f98d9f9e9b03a5f3a08c80df8f0fcb44 DependenciesID=cc21c2f98cc5b3d207ac29e6191c1bd6 StaticDependenciesID=d9bba5c741b1aa1edf3b489494cb06af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animation/Hero/hero_idle_anim.anim
+  importAddress: Guid(ff435c2122c734acba826cfa56ac9f75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Hero/hero_idle_anim.anim using Guid(ff435c2122c734acba826cfa56ac9f75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d79fac746e19b51541b879a2aab953e') in 0.0232363 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19330a66c11b1f9209cc8a29611592be DependenciesID=e57ddb2fb8653f8d7e7df505984bf1ea StaticDependenciesID=f45465c562eca4a39323b0a98e22b58a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MobileDependencyResolver/Editor/1.2.185/Google.IOSResolver.pdb
+  importAddress: Guid(e776230601db4ffbbbd4e1266bdcdc23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.IOSResolver.pdb using Guid(e776230601db4ffbbbd4e1266bdcdc23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cefc2075813ac220e89ded238ab3fd9a') in 0.0481741 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc542491016fadb8e47ec2225e721544 DependenciesID=ae3145e611b2bde1b1f8cc0f896c1090 StaticDependenciesID=b55acbb8ff62a5fa53f890bb7ae72c66 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_idle_02.png
+  importAddress: Guid(c8a0b4576e3a19943a3a71702f8b2d3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_idle_02.png using Guid(c8a0b4576e3a19943a3a71702f8b2d3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47bfbe0f0a1e7bee2952effa3aeaf36c') in 0.0643465 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da7e3be0a7808b058999c812d375eb17 DependenciesID=672663fab2bd27d4ba0743999fecbf82 StaticDependenciesID=2963c8c64c077058f0e34a27116b3c60 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MobileDependencyResolver/Editor/1.2.185/Google.PackageManagerResolver.dll
+  importAddress: Guid(bf27b3f704244da0af729a6737adb7f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MobileDependencyResolver/Editor/1.2.185/Google.PackageManagerResolver.dll using Guid(bf27b3f704244da0af729a6737adb7f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53fbbe63bddc170806fa90b6023eb225') in 0.1174843 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d7f0974330222c0364fc3c4b3b20723 DependenciesID=9d0f250c826764c1202d9754d4b6b8b6 StaticDependenciesID=94a1bef7d6f3c64db31cd3a5da6dbf0d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_getup_04.png
+  importAddress: Guid(90c3db8c3a04bf44aab9ee45c3b832da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_getup_04.png using Guid(90c3db8c3a04bf44aab9ee45c3b832da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7f99f23d80a51f35f8c46567c3c25820') in 0.0287766 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d30ee5258de5618efe8ce6fb5974aa0f DependenciesID=d5c3bbf643230b7f96c9ca622b08c77e StaticDependenciesID=55d64ef5246d6bf1650fbde32d665a1f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_walk_00.png
+  importAddress: Guid(71a5a8b31743eff44a9ff5ec8bf02a3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_walk_00.png using Guid(71a5a8b31743eff44a9ff5ec8bf02a3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5d6cfceee3f6e973a22796bff52a7e6d') in 0.0301118 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f45f32a4b6f04ca438fba1cc0a6c845e DependenciesID=80106733163659e8ae493f3374f14f7f StaticDependenciesID=0e70e5e7c9f187c3c7d5b7962a64f0d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_hurt_02.png
+  importAddress: Guid(e1990a7cd6e6c124b9450cf4971a04d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_hurt_02.png using Guid(e1990a7cd6e6c124b9450cf4971a04d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f6f45149b22b289a595817d7cd976eb4') in 0.0252312 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc975048624ee9211727560c4bc60bdc DependenciesID=f085443548fcfcb1d548593c88b1c2a3 StaticDependenciesID=11f24c6ffe753c3565ef200d7ccd0f56 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_getup_00.png
+  importAddress: Guid(d6f80ba71025cce4fad9cf8c8f0e0b42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_getup_00.png using Guid(d6f80ba71025cce4fad9cf8c8f0e0b42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '03e2b80f50b82c8e8016f905e88020a3') in 0.0416355 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74fe233bc164e59b8a95ab3c7ccd16b5 DependenciesID=2a6f2a1c8fe75c0a34061027146cd71c StaticDependenciesID=b3a984852702ac20c740dfaa879f27e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/Sprites/Hero/hero_runattack_00.png
+  importAddress: Guid(bcee1706966dc6f4f83c8e5710df2413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_runattack_00.png using Guid(bcee1706966dc6f4f83c8e5710df2413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0994352674fed11a82ec1940b4160027') in 0.020783 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13104fa0ebb7b5c1a2188aa5f8fac15c DependenciesID=abc4983338df94aa9041465035f30f9f StaticDependenciesID=6b1d5ac5ede21df293a4bdcca65c3c5a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animation/Boss/boss_knockout_anim.anim
+  importAddress: Guid(6692dfb960e6abb468dcfe9e8a360e1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Boss/boss_knockout_anim.anim using Guid(6692dfb960e6abb468dcfe9e8a360e1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a92fde2cba476768bb9982a607b9bd26') in 0.0100344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=413688e8e5aea7f50c9b48ea818cba2d DependenciesID=f1087994ed42ba0800d73877866f4b0e StaticDependenciesID=07fb594eeb91cf2acdf60c8369b72a18 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_knockout_04.png
+  importAddress: Guid(7b6f25b8521adb747b6d640acbc4802c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_knockout_04.png using Guid(7b6f25b8521adb747b6d640acbc4802c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e3be104000974b4fa11181ec204395f') in 0.0479103 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d3acfa96cef0f9ef0461754496e2e8d DependenciesID=542dee61b53d67351c5cdd7eea732b20 StaticDependenciesID=9ee4945838aca2a120ee48626ad2ef10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/GameManager.cs
+  importAddress: Guid(43232e67feac349b0b759e06411ede50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/GameManager.cs using Guid(43232e67feac349b0b759e06411ede50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '977ec53b426d617279917e31ea35d3ed') in 0.0084287 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b34bb7e751d6b8da13b501ed5018bb00 DependenciesID=25c80bebf3569fd31de5c4c7ba8c11dc StaticDependenciesID=2fad2256e7a5f1da2e083cb0a0f599bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/Sprites/Hero/hero_jump_04.png
+  importAddress: Guid(10591daeccea85b4198e22d4bad1548a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_jump_04.png using Guid(10591daeccea85b4198e22d4bad1548a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dabeb5a89c78ad8450f7a46ca40bc149') in 0.0235493 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f4cbd50ef2d54cb8af1551ec20e1d8d DependenciesID=28559a784f7f1f4762b3f53dfc5697e4 StaticDependenciesID=5eaccdcf80a69fca1436e394cf834ae2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animation/Boss/boss_idle_anim.anim
+  importAddress: Guid(2ea9783ef15e158489aa76458b11401b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Boss/boss_idle_anim.anim using Guid(2ea9783ef15e158489aa76458b11401b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eef648baa13fdae0c288b27b323f2ab2') in 0.0104305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c2c29e10c824bfe30be401c1ba6aefa DependenciesID=3729393afb8d8ebc11f1e5ba9b58ee37 StaticDependenciesID=64be5ce8fa7149028a004bc024bbeb47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/LevelData.cs
+  importAddress: Guid(507255a8744cf43bfb51f0b5d82fb09a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/LevelData.cs using Guid(507255a8744cf43bfb51f0b5d82fb09a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ead81fffb4bdb32470e0d943061faf9') in 0.0096256 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=592912808c1ce84f55b36b422ef7f3ad DependenciesID=b558b5bc3523f9e41d74207891f52db1 StaticDependenciesID=dd429e876137d5dae516e5968dd9aa78 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Images/Sprites/Hero/hero_run_03.png
+  importAddress: Guid(4faee43ff3ea7d94bbaa0fd07230cab4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_run_03.png using Guid(4faee43ff3ea7d94bbaa0fd07230cab4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e4d913dd5533f39c175bd933c8deffc7') in 0.0232001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcc01f09eca6c4651ec4edd5d45b094d DependenciesID=8ff6955f2f47085b1345388128dd4d41 StaticDependenciesID=e5bac9498acda2421a5fdbeec586eef3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Sprites/Hero/hero_jumpattack_02.png
+  importAddress: Guid(29dc726dcbdaea84fafab4d55cb50ccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_jumpattack_02.png using Guid(29dc726dcbdaea84fafab4d55cb50ccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3045a44b01fd90f760a0421a703699c') in 0.0420854 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb6042575d7c6c77c0db63533d4b7b9b DependenciesID=28675440388be4186482417312d18534 StaticDependenciesID=f6f413cc4caceb0c56ad2d38680157d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Sprites/Hero/hero_jumpattack_03.png
+  importAddress: Guid(20738f042f5412844893736af599e8ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Hero/hero_jumpattack_03.png using Guid(20738f042f5412844893736af599e8ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55e17737ce3a90940d8ccf2985581290') in 0.0232448 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6e9afd008fdb17e6849c46c86d37193 DependenciesID=f828d36b65f71081693feea21e724ad6 StaticDependenciesID=167fb40be2fc511ec61c286b05412291 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_knockout_00.png
+  importAddress: Guid(eb75ae88730044c45992d64c35555838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_knockout_00.png using Guid(eb75ae88730044c45992d64c35555838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a6781f40239d583f8877947bf759612b') in 0.0675684 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63c76f0df74909e738f75595767dd4dd DependenciesID=98215a9e7e5c7e600aebb5d67cebd47f StaticDependenciesID=1959f9b2bb1b8d006299d0750057e5d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/Sprites/Robot/robot_smoke_knockout_03.png
+  importAddress: Guid(968bc0a863a08e648b5910e886dfc81a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Images/Sprites/Robot/robot_smoke_knockout_03.png using Guid(968bc0a863a08e648b5910e886dfc81a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a3a6fc8f0a67cff7a284afbe4b6d8eab') in 0.0254938 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b7658c1d722f27008671e1f5e8d6a36 DependenciesID=5ddda4c2ff7efaee1df7ed1ba89cc1e3 StaticDependenciesID=34f91300753f7d10d3cbd7eb2ccd5027 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
